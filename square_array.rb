@@ -3,7 +3,7 @@ require "pry"
 def square_array(array)
   count = 0
   array.each do |index|
-    index
+    array[count] = index**2
     binding.pry
     count += 1
   end
