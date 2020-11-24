@@ -1,10 +1,8 @@
 require "pry"
 
-count = 0
-
 def square_array(array)
+  count = 0
   array.each do |index|
-    count
     index
     binding.pry
     count += 1
