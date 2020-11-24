@@ -7,3 +7,8 @@ def square_array(array)
     count += 1
   end
 end
+
+def square_array(array)
+  collect array : #{array.collect {|x| x**2 }}
+  
+end
